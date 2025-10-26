@@ -10,6 +10,9 @@ Instalação do framework laravel 12:
 Instalação da aplicação
 - laravel new customer_registration
 - Realizar a configuração do .env.
+  
+  <img width="839" height="194" alt="image" src="https://github.com/user-attachments/assets/5d673b46-fdb4-4e92-87a2-77df6a9ff3f8" />
+
 - Depois realizei a criação do banco de dados, antes de finalizar a instalação da aplicação informe qual tipo de banco vai trabalhar. Após selecionar Sqlite será criado uma nova pasta em database e em seguida será criado um arquivo vazio database.sqlite. 
   
   <img width="519" height="224" alt="image" src="https://github.com/user-attachments/assets/b016d6f4-1c72-43c1-927f-36a9c4a380ab" />
@@ -22,19 +25,27 @@ Em seguida deve iniciar o projeto:
 - npm rum dev
 - php artisan serve
 
-obs.: Depoid caso deseja confirmar se foi criado o arquivo sqlite deve ir em database/database.sqlite.
+obs.: Depois, caso desejar, confirmar se foi criado o arquivo sqlite deve ir em database/database.sqlite.
 
-3º Criação do enum:
-- Na pasta App deve criar uma outra pasta Enum depois criar um arquivo com o nome por exemplo: CustomerEnum.php
-- Nesse arquivo deve-se configurar os enum para que seja exibido no banco de dados.
-- Após a configuração do enum que se deve criar as migrates. Na criação das migrates deve realizar a ligação do enum com a tabela com isso, ao criar a tabela do banco alguns informações pré configuradas no enum serão exibidas no banco de dados.
-  
-4º Criação das migrates
+3º Criação das migrates
 - php artisan make:migration create_customers_table --create=customers
 - php artisan make:migration create_contacts_table --create=contacts
 - php artisan make:migration create_addresses_table --create=adresses
 
 - Após as migrates configurada rode o comando para criar a migrate:  php artisan migrate
+
+4º Criação do enum:
+- Realizei a criação do enum em App/Enum/CustomerEnum.php
+- No arquivo enum deixei padrão alguns dados que optei deixar pré-configuradas.
+- No model deixei adicionei a opção:
+   protected $casts = [ 'status' => CustomerEnum::class, ];
+ - Para receber as informações do enum.
+  
+5º Model
+- Criação do model:
+- php artisan make:model Customer
+- php artisan make:model Contact
+- php artisan make:model Address
 
 5º Instalação do Filament
 - composer require filament/filament:"~4.0"
@@ -50,13 +61,6 @@ obs.: Depoid caso deseja confirmar se foi criado o arquivo sqlite deve ir em dat
 
 
 
-
-5º Criar o enum
-- Foi criado a pasta enum;
-- Depois foi criado o arquivo customerEnum e configurado o enum.
-
-6º 
-7º
   
 
 Referências:
