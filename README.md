@@ -10,6 +10,7 @@ Instalação do framework laravel 12:
 Instalação da aplicação
 - laravel new customer_registration
 - Realizar a configuração do .env.
+- no .env-exemplo tem as configurações do .env para execultar o projeto deve renomear o arquivo env-exemplo para .env
   
   <img width="839" height="194" alt="image" src="https://github.com/user-attachments/assets/5d673b46-fdb4-4e92-87a2-77df6a9ff3f8" />
 
