@@ -9,6 +9,11 @@ Instalação do framework laravel 12:
 - composer global require laravel/installer
 Instalação da aplicação
 - laravel new customer_registration
+- Realizar a configuração do .env.
+- Depois realizei a criação do banco de dados
+  
+  <img width="519" height="224" alt="image" src="https://github.com/user-attachments/assets/b016d6f4-1c72-43c1-927f-36a9c4a380ab" />
+
 Acesse a aplicação:
 - cd customer_registration
 Realiza a instalação da dependência
@@ -16,6 +21,29 @@ Realiza a instalação da dependência
 Em seguida deve iniciar o projeto:
 - npm rum dev
 - php artisan serve
+
+3º Criação do enum:
+- Na pasta App deve criar uma outra pasta Enum depois criar um arquivo com o nome por exemplo: CustomerEnum.php
+- Nesse arquivo deve-se configurar os enum para que seja exibido no banco de dados.
+- Após a configuração do enum que se deve criar as migrates. Na criação das migrates deve realizar a ligação do enum com a tabela com isso, ao criar a tabela do banco alguns informações pré configuradas no enum serão exibidas no banco de dados.
+  
+4º Criação das migrates
+- php artisan make:migration create_customers_table --create=customers
+- php artisan make:migration create_contacts_table --create=contacts
+- php artisan make:migration create_addresses_table --create=adresses
+
+- Após as migrates configurada rode o comando para criar a migrate:  php artisan migrate
+
+
+
+
+
+
+
+
+
+
+
 
 3º Instalação do Filament
 - composer require filament/filament:"~4.0"
@@ -31,13 +59,7 @@ Depois acessei: http://127.0.0.1:8000/admin
 - Foi criado a pasta enum;
 - Depois foi criado o arquivo customerEnum e configurado o enum.
 
-6º Criação das migrates
-- php artisan make:migration create_customers_table --create=customers
-- php artisan make:migration create_contacts_table --create=contacts
-- php artisan make:migration create_addresses_table --create=adresses
-
-- Depois de configurar as migrate rodei o comando: php artisan migrate e em seguida foi criado a migrate e o arquivo criado no database/database.sqlite foi preenchido após executar o comando.
-
+6º 
 7º
   
 
