@@ -47,8 +47,8 @@ obs.: Depois, caso desejar, confirmar se foi criado o arquivo sqlite deve ir em 
 - php artisan make:model Contact
 - php artisan make:model Address
 
-5º Instalação do Filament
-- composer require filament/filament:"~4.0"
+6º Instalação do Filament
+- composer require filament/filament
 - php artisan filament:install --panels
 
   Configuração do usuário
@@ -56,9 +56,10 @@ obs.: Depois, caso desejar, confirmar se foi criado o arquivo sqlite deve ir em 
  - Link: http://localhost:8000/admin/login
    login: danielavieira@gmail.comm
    Senha: 123456
-
-
-
+- Depois  foi criado o filament resource: php artisan make:filament-resource Customer --view
+- Configurado a tabela do banco de dados;
+- Segue esse tutorial para deixar a aplicação em português: https://github.com/lucascudo/laravel-pt-BR-localization
+- Em seguida foi realizado a configurações do banco de dado no filament, realizei a configurações do edit, delete, create, visualizar.
 
 
   
