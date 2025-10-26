@@ -96,6 +96,7 @@ Laravel: https://laravel.com/docs/12.x/installation
 Filament: https://filamentphp.com/docs/4.x/introduction/installation
 
 Sqlite: https://www.alura.com.br/artigos/sqlite-da-instalacao-ate-primeira-tabela?srsltid=AfmBOoqf1qYUGz19W5ki9yf83hUtvNcZWk2Z9i9FOoGNd6TVxYUJo0IT
+
 Sqlite: https://laravel.com/docs/12.x/database
   
 
