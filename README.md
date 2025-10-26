@@ -10,10 +10,10 @@ Instalação do framework laravel 12:
 Instalação da aplicação
 - laravel new customer_registration
 - Realizar a configuração do .env.
-- Depois realizei a criação do banco de dados
+- Depois realizei a criação do banco de dados, antes de finalizar a instalação da aplicação informe qual tipo de banco vai trabalhar. Após selecionar Sqlite será criado uma nova pasta em database e em seguida será criado um arquivo vazio database.sqlite. 
   
   <img width="519" height="224" alt="image" src="https://github.com/user-attachments/assets/b016d6f4-1c72-43c1-927f-36a9c4a380ab" />
-
+  
 Acesse a aplicação:
 - cd customer_registration
 Realiza a instalação da dependência
@@ -21,6 +21,8 @@ Realiza a instalação da dependência
 Em seguida deve iniciar o projeto:
 - npm rum dev
 - php artisan serve
+
+obs.: Depoid caso deseja confirmar se foi criado o arquivo sqlite deve ir em database/database.sqlite.
 
 3º Criação do enum:
 - Na pasta App deve criar uma outra pasta Enum depois criar um arquivo com o nome por exemplo: CustomerEnum.php
@@ -34,26 +36,20 @@ Em seguida deve iniciar o projeto:
 
 - Após as migrates configurada rode o comando para criar a migrate:  php artisan migrate
 
-
-
-
-
-
-
-
-
-
-
-
-3º Instalação do Filament
+5º Instalação do Filament
 - composer require filament/filament:"~4.0"
 - php artisan filament:install --panels
-Depois acessei: http://127.0.0.1:8000/admin
 
-4º Configurações iniciais:]
-- Realizei a instalação do sqlite;
-- configuração do php.ini;
-- depois realizei a configuração do .env
+  Configuração do usuário
+ - php artisan make:filament-user
+ - Link: http://localhost:8000/admin/login
+   login: danielavieira@gmail.comm
+   Senha: 123456
+
+
+
+
+
 
 5º Criar o enum
 - Foi criado a pasta enum;
