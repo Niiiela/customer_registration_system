@@ -89,7 +89,8 @@ obs.: Depois, caso desejar, confirmar se foi criado o arquivo sqlite deve ir em 
 
  - Visualizar
 
-  <img width="1919" height="842" alt="image" src="https://github.com/user-attachments/assets/4ced92ea-08da-4610-818f-520ec54e82cc" />
+<img width="1916" height="860" alt="image" src="https://github.com/user-attachments/assets/581d6de6-12f8-4d35-9daa-7f0ba9d11663" />
+
 
 
 
