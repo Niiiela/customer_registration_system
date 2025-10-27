@@ -61,6 +61,10 @@ obs.: Depois, caso desejar, confirmar se foi criado o arquivo sqlite deve ir em 
 - Configurado a tabela do banco de dados;
 - Segue esse tutorial para deixar a aplicação em português: https://github.com/lucascudo/laravel-pt-BR-localization
 - Em seguida foi realizado a configurações do banco de dado no filament, realizei a configurações do edit, delete, create, visualizar.
+- 
+
+  <img width="976" height="696" alt="image" src="https://github.com/user-attachments/assets/fea5cb01-8b8b-46a8-8b19-b6badfa8c866" />
+
 
 - Tela de Lista
   
@@ -82,7 +86,7 @@ obs.: Depois, caso desejar, confirmar se foi criado o arquivo sqlite deve ir em 
 
  - Visualizar
 
-   <img width="1915" height="806" alt="image" src="https://github.com/user-attachments/assets/bd0b731b-8713-44ae-bf1c-ffea1892ba68" />
+  <img width="1919" height="842" alt="image" src="https://github.com/user-attachments/assets/4ced92ea-08da-4610-818f-520ec54e82cc" />
 
 
 
