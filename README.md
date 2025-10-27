@@ -1,39 +1,4 @@
-# Sistema de Cadastro de Cliente
-
-Segue o passo a passo de como foi desenvolvido o sistema de cadastro de cliente.
-
----
-
-## 1º – Regra de Negócio e Diagrama do Banco de Dados
-
-Realizei a regra de negócio, no qual destaquei quais tabelas e colunas o banco de dados seria composto. Realizei o diagrama pela plataforma [dbdiagram](https://dbdiagram.io).
-
-![Diagrama do banco](https://github.com/user-attachments/assets/80cf4c17-c5ed-4903-b89d-7fe8236ccb51)
-
----
-
-## 2º – Instalação do Laravel 12
-
-### Instalação do framework Laravel 12
-
-```bash
-composer global require laravel/installer
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- ___________________________________
- Sistema de cadastro de cliente
+# Sistema de cadastro de cliente
 Segue o passo a passo de como foi desenvolvido o sistema de cadastro de cliente.
 1º Realizei a regra de negócio, no qual destaquei quais tabelas e colunas o banco de dados seria composto. Realizei o diagrama pela plataforma dbdiagrama: "https://dbdiagram.io'
 
