@@ -30,12 +30,13 @@ Segue o passo a passo de como foi desenvolvido o sistema de cadastro de cliente.
   
   <img width="839" height="194" alt="image" src="https://github.com/user-attachments/assets/5d673b46-fdb4-4e92-87a2-77df6a9ff3f8" />
 
-- Depois realizei a criação do banco de dados, antes de finalizar a instalação da aplicação informe qual tipo de banco vai trabalhar. Após selecionar Sqlite será criado uma nova pasta em database e em seguida será criado um arquivo vazio database.sqlite. 
+- Depois realizei a criação do banco de dados, antes de finalizar a instalação da aplicação informe qual tipo de banco vai trabalhar. Após selecionar Sqlite será criado uma nova pasta em database e em seguida será criado um arquivo vazio database.sqlite.
   
   <img width="519" height="224" alt="image" src="https://github.com/user-attachments/assets/b016d6f4-1c72-43c1-927f-36a9c4a380ab" />
   
 Acesse a aplicação:
-- cd customer_registration
+``` cd customer_registration ```
+
 Realiza a instalação da dependência
 - npm install
 Em seguida deve iniciar o projeto:
