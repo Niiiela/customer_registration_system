@@ -67,8 +67,9 @@ obs.: Depois, caso desejar, confirmar se foi criado o arquivo sqlite deve ir em 
 
 
 - Tela de Lista
-  
-  <img width="1895" height="815" alt="image" src="https://github.com/user-attachments/assets/70776836-7690-40e4-ad78-b26d51120bfc" />
+
+  <img width="1913" height="573" alt="image" src="https://github.com/user-attachments/assets/45107767-f18f-4a26-98d5-0dc220204ef7" />
+
 
   - Tela de Criate
 
