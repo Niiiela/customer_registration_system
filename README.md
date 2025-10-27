@@ -124,7 +124,7 @@ php artisan make:model Customer
 	npm rum dev
 	composer install
 	php artisan
-```
+  ```
 
 ### *Segue abaixo alguns link de referência que usei para desenvolver esse projeto*
 
