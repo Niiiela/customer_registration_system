@@ -18,9 +18,13 @@ Segue o passo a passo de como foi desenvolvido o sistema de cadastro de cliente.
   
 ## Passo a Passo
 - Instalação do framework laravel 12:
+  
   ```composer global require laravel/installer```
-Instalação da aplicação
-- laravel new customer_registration
+  
+- Instalação da aplicação
+  
+ ```laravel new customer_registration```
+ 
 - Realizar a configuração do .env.
 - no .env-exemplo tem as configurações do .env para execultar o projeto deve renomear o arquivo env-exemplo para .env
   
