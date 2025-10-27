@@ -26,7 +26,6 @@ Segue o passo a passo de como foi desenvolvido o sistema de cadastro de cliente.
  ```laravel new customer_registration```
  
 - Realizar a configuração do .env.
-- no .env-exemplo tem as configurações do .env para execultar o projeto deve renomear o arquivo env-exemplo para .env
   
   <img width="839" height="194" alt="image" src="https://github.com/user-attachments/assets/5d673b46-fdb4-4e92-87a2-77df6a9ff3f8" />
 
@@ -120,6 +119,7 @@ php artisan make:model Customer
 
 - Para baixar o projeto: git clone link do projeto;
 - Após baixar deve acessar o arquivo no terminal deve instalar:
+- no .env-exemplo tem as configurações do .env para execultar o projeto deve renomear o arquivo env-exemplo para .env
   ```
 	npm rum dev
 	composer install
