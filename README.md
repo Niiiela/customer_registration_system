@@ -42,6 +42,7 @@ Realiza a instalação da dependência
 
 Em seguida deve iniciar o projeto:
 ```npm rum dev```
+
 ```php artisan serve```
 
 obs.: Depois, caso desejar, confirmar se foi criado o arquivo sqlite deve ir em ```database/database.sqlite```.
@@ -118,7 +119,7 @@ php artisan make:model Customer
 
 
 
-### *Segue abaixo alguns link de referência quue usei para desenvolver esse projeto*
+### *Segue abaixo alguns link de referência que usei para desenvolver esse projeto*
 
 - *Laravel:* https://laravel.com/docs/12.x/installation
 - *Filament:* https://filamentphp.com/
