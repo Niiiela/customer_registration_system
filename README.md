@@ -118,6 +118,13 @@ php artisan make:model Customer
 <img width="1916" height="860" alt="image" src="https://github.com/user-attachments/assets/581d6de6-12f8-4d35-9daa-7f0ba9d11663" />
 
 
+- Para baixar o projeto: git clone link do projeto;
+- Após baixar deve acessar o arquivo no terminal deve instalar:
+  ```
+	npm rum dev
+	composer install
+	php artisan
+```
 
 ### *Segue abaixo alguns link de referência que usei para desenvolver esse projeto*
 
