@@ -38,91 +38,91 @@ Acesse a aplicação:
 ``` cd customer_registration ```
 
 Realiza a instalação da dependência
-- npm install
-Em seguida deve iniciar o projeto:
-- npm rum dev
-- php artisan serve
+```npm install```
 
-obs.: Depois, caso desejar, confirmar se foi criado o arquivo sqlite deve ir em database/database.sqlite.
+Em seguida deve iniciar o projeto:
+```npm rum dev```
+```php artisan serve```
+
+obs.: Depois, caso desejar, confirmar se foi criado o arquivo sqlite deve ir em ```database/database.sqlite```.
 
 3º Criação das migrates
-- php artisan make:migration create_customers_table --create=customers
-- php artisan make:migration create_contacts_table --create=contacts
-- php artisan make:migration create_addresses_table --create=adresses
+```
+php artisan make:migration create_customers_table --create=customers
+php artisan make:migration create_contacts_table --create=contacts
+php artisan make:migration create_addresses_table --create=adresses
+```
 
-- Após as migrates configurada rode o comando para criar a migrate:  php artisan migrate
+- Após as migrates configurada rode o comando para criar a migrate:  ```php artisan migrate```
 
 4º Criação do enum:
-- Realizei a criação do enum em App/Enum/CustomerEnum.php
+- Realizei a criação do enum em ```App/Enum/CustomerEnum.php```
 - No arquivo enum deixei padrão alguns dados que optei deixar pré-configuradas.
-- No model deixei adicionei a opção:
-   protected $casts = [ 'status' => CustomerEnum::class, ];
  - Para receber as informações do enum.
   
 5º Model
 - Criação do model:
-- php artisan make:model Customer
-- php artisan make:model Contact
-- php artisan make:model Address
+```
+php artisan make:model Customer
+ php artisan make:model Contact
+ php artisan make:model Address
+```
 
 6º Instalação do Filament
-- composer require filament/filament
-- php artisan filament:install --panels
+```composer require filament/filament```
+```php artisan filament:install --panels```
 
   Configuração do usuário
- - php artisan make:filament-user
- - Link: http://localhost:8000/admin/login
+```
+    php artisan make:filament-user
+    Link: http://localhost:8000/admin/login
    login: danielavieira@gmail.comm
    Senha: 123456
-- Depois  foi criado o filament resource: php artisan make:filament-resource Customer --view
+```
+   
+- Depois  foi criado o filament resource: ```php artisan make:filament-resource Customer --view```
 - Configurado a tabela do banco de dados;
-- Segue esse tutorial para deixar a aplicação em português: https://github.com/lucascudo/laravel-pt-BR-localization
+- Segue esse tutorial para deixar a aplicação em português: ```https://github.com/lucascudo/laravel-pt-BR-localization```
 - Em seguida foi realizado a configurações do banco de dado no filament, realizei a configurações do edit, delete, create, visualizar.
-- 
 
+  ### Segue as tela do Projeto
+  **Tela Login**
+  
   <img width="976" height="696" alt="image" src="https://github.com/user-attachments/assets/fea5cb01-8b8b-46a8-8b19-b6badfa8c866" />
 
 
-- Tela de Lista
+  **Tela Lista**
 
   <img width="1913" height="573" alt="image" src="https://github.com/user-attachments/assets/45107767-f18f-4a26-98d5-0dc220204ef7" />
 
 
-  - Tela de Criate
+  **Tela de Criate**
 
 
 <img width="1896" height="831" alt="image" src="https://github.com/user-attachments/assets/d8af2a63-e3a2-4257-aa07-c248a602f13c" />
 
 
-
-- Tela de Edite
+**Tela de Edite**
 
 <img width="1517" height="773" alt="image" src="https://github.com/user-attachments/assets/1f7729a1-ef2f-450f-8c1b-02d2b233f87d" />
 
 
-  - Delete
+**Delete**
 
  <img width="1892" height="558" alt="image" src="https://github.com/user-attachments/assets/e82c0e0e-bfff-4547-b513-77b8fe02cefe" />
 
- - Visualizar
+
+**Visualizar**
 
 <img width="1916" height="860" alt="image" src="https://github.com/user-attachments/assets/581d6de6-12f8-4d35-9daa-7f0ba9d11663" />
 
 
 
+### *Segue abaixo alguns link de referência quue usei para desenvolver esse projeto*
 
-
-
-
-  
-
-Referências:
-Laravel: https://laravel.com/docs/12.x/installation
-
-Filament: https://filamentphp.com/docs/4.x/introduction/installation
-
-Sqlite: https://www.alura.com.br/artigos/sqlite-da-instalacao-ate-primeira-tabela?srsltid=AfmBOoqf1qYUGz19W5ki9yf83hUtvNcZWk2Z9i9FOoGNd6TVxYUJo0IT
-
-Sqlite: https://laravel.com/docs/12.x/database
+- *Laravel:* https://laravel.com/docs/12.x/installation
+- *Filament:* https://filamentphp.com/
+-  *SQLite:* https://sqlite.org/
+-  SQLite:* https://www.youtube.com/watch?v=HtwNbxT_kH8
   
 
